@@ -1,0 +1,14 @@
+﻿<Window x:Class="ExamProject1.Start.StartWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamProject1.Start"
+        mc:Ignorable="d"
+        Title="StartWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Клиент" Margin="187,342,481,46" Click="Client_Click"/>
+        <Button Content="Администратор" Margin="490,342,178,46" Click="Admin_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="307,83,0,0" TextWrapping="Wrap" Text="Автомастерская " VerticalAlignment="Top" Height="47" Width="199" FontSize="24"/>
+    </Grid>
+</Window>
